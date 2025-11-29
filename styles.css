@@ -1,6 +1,6 @@
 /* --- Casa de Abuelita 2025 ---
    Author: Adriana Padilla
-   Cleaned, combined, responsive & cohesive
+   Cleaned, combined, responsive & bilingual-ready
 */
 
 * {
@@ -125,7 +125,7 @@ h2 {
 
 /* --- Contact Section --- */
 .contact {
-    background: #fff4f0; /* softer, less yellow, more cohesive */
+    background: #fff4f0; 
     padding: 80px 20px;
 }
 
@@ -235,4 +235,3 @@ h2 {
     box-shadow: 0 3px 6px rgba(0,0,0,0.15);
     background: #fff;
 }
-

@@ -74,6 +74,17 @@
       "priceRange": "$"
     }
     </script>
+
+    <script>
+      const userLang = navigator.language || navigator.userLanguage; // e.g., "en-US" or "es-ES"
+      
+      if (userLang.startsWith('es') && !location.pathname.includes('-es')) {
+        window.location.href = location.pathname.replace('.html', '-es.html');
+      } else if (userLang.startsWith('en') && location.pathname.includes('-es')) {
+        window.location.href = location.pathname.replace('-es.html', '.html');
+      }
+    </script>
+
 </head>
 <body>
 
