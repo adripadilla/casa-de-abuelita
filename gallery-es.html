@@ -1,0 +1,73 @@
+<!-- Casita de Abuelita – Página de Galería -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería | Casita de Abuelita</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="/index-es.html">Inicio</a>
+    <a href="/index-es.html#services">Servicios</a>
+    <a href="/index-es.html#contact">Contacto</a>
+    <a class="active" href="/gallery-es.html">Galería</a>
+  </nav>
+</header>
+
+<section class="gallery-container">
+  <h2>Galería de Fotos y Videos</h2>
+  <p>Algunas de las creaciones de Rachel: costura, trabajos personalizados y cocina — hecho con amor.</p>
+
+  <div class="masonry">
+
+    <div class="gallery-item">
+      <img src="images/apron.jpg" alt="Delantal personalizado hecho por Rachel en San Antonio">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/makeup_bags.jpg" alt="Bolsas hechas a mano por Rachel">
+    </div>
+
+    <div class="gallery-item">
+      <video muted autoplay loop playsinline>
+        <source src="/videos/Tiktok.mp4" type="video/mp4">
+        Su navegador no soporta la etiqueta de video.
+      </video>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/missme_purse_front.jpg" alt="Bolso hecho a mano con jeans MissMe (frente)">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/missme_purse.jpg" alt="Bolso hecho a mano con jeans MissMe">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/kitchen_mitts.jpg" alt="Manoplas de cocina hechas a mano por Rachel">
+    </div>
+
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div class="lightbox" id="lightbox">
+  <span class="close"></span>
+  <div id="lightbox-content"></div>
+</div>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Casita de Abuelita | Sitio web por 
+    <a href="https://adrianaypadilla.com" target="_blank" rel="noopener noreferrer">
+      Adriana Padilla
+    </a>
+  </p>
+</footer>
+
+</body>
+</html>
