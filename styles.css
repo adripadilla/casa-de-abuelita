@@ -235,3 +235,17 @@ h2 {
     box-shadow: 0 3px 6px rgba(0,0,0,0.15);
     background: #fff;
 }
+
+/* --- Language Switcher --- */
+.lang-switcher a {
+    font-weight: bold;
+    color: #b04a5a;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.lang-switcher a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
