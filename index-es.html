@@ -74,16 +74,6 @@
       "priceRange": "$"
     }
     </script>
-
-    <script>
-      const userLang = navigator.language || navigator.userLanguage; // e.g., "en-US" or "es-ES"
-      
-      if (userLang.startsWith('es') && !location.pathname.includes('-es')) {
-        window.location.href = location.pathname.replace('.html', '-es.html');
-      } else if (userLang.startsWith('en') && location.pathname.includes('-es')) {
-        window.location.href = location.pathname.replace('-es.html', '.html');
-      }
-    </script>
 </head>
 <body>
 
@@ -102,6 +92,12 @@
         <h1>Casita de Abuelita</h1>
         <p>Sastrería personalizada, ajustes y más — hecho con amor en San Antonio, TX.</p>
     </section>
+
+    <!-- Language Switcher -->
+    <div class="lang-switcher" style="text-align:center; margin:20px 0;">
+        <a href="/index.html" id="en-link">Cambiar a inglés</a>
+    </div>
+
 
     <!-- About Section -->
     <section class="container about" id="about">
